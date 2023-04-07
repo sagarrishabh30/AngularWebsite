@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+.navbar-brand {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.navbar {
+    height: 10%;
+}
+
+.nav-item {
+    padding: 10px;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link{
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 22px;
+}
