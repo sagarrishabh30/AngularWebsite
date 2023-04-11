@@ -7,6 +7,10 @@
 
 .navbar {
     height: 10%;
+    position: fixed;
+    width: 100%;
+    top:0;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .nav-item {
@@ -20,4 +24,9 @@
     font-family: 'Comic Neue', cursive;
     font-weight: bold;
     font-size: 22px;
+}
+
+.menu{
+    left: 80px;
+    position: relative;
 }

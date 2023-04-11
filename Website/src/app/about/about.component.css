@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Hind+Madurai:wght@500&display=swap');
+
+.content {
+    font-family: 'Hind Madurai', sans-serif;
+    height: 100%;
+    background-image: url('../../assets/images/AboutBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+p {
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 0.9;
+}
+
+.about-content {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.content{
+    background-image: url('../../assets/images/HomeBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#logo, #tagline{
+    padding-top: 5%;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    text-decoration: underline overline;
+}

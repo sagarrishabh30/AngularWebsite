@@ -1,1 +1,74 @@
-<p>contact works!</p>
+<div class="content">
+    <form [formGroup]="contactForm" (ngSubmit)="contactFormSubmit()">
+        <div class="form">
+            <h1>Get in touch</h1>
+            <div class="flex-container">
+                <div class="flex-left">
+                    <!-- <label for="name">Name: </label>
+            <input id="name" type="text" formControlName="Name">
+            <label for="phone">Phone No.: </label>
+            <input id="phone" type="number" formControlName="phone">
+            <label for="email">Email ID: </label>
+            <input id="email" type="email" formControlName="email">
+            <label for="message">Message: </label>
+            <input id="message" type="text" formControlName="message">
+            <button class="btn btn-primary" (click)="contactFormSubmit()">Submit</button> -->
+                    <div class="input-container ic2">
+                        <input class="input" id="Name" type="email" formControlName="Name" placeholder=" ">
+                        <div class="cut cut-short"></div>
+                        <label for="Name" class="placeholder">Name</label>
+                    </div>
+                    <div class="input-container ic2">
+                        <input class="input" id="phone" type="text" formControlName="phone" placeholder=" ">
+                        <div class="cut"></div>
+                        <label for="phone" class="placeholder">Phone No.</label>
+                    </div>
+                    <div class="input-container ic2">
+                        <input class="input" id="email" type="email" formControlName="email" placeholder=" ">
+                        <div class="cut cut-short"></div>
+                        <label for="email" class="placeholder">Email</label>
+                    </div>
+                    <div class="input-container ic2">
+                        <textarea class="input" id="message" type="text" formControlName="message"
+                            placeholder=" "></textarea>
+                        <div class="cut"></div>
+                        <label for="message" class="placeholder">Message</label>
+                    </div>
+                    <button type="text" class="submit">Submit</button>
+                </div>
+                <div class="verticalLine"></div>
+                <div class="flex-right">
+                    <h2><u><b>Address</b></u></h2>
+
+                    <address>
+                        <i> Lemon Chatka LLP, <br>
+                            Plot No.30, Kh No.414, <br>
+                            BKT, Lucknow (U.P.) <br>
+                        </i>
+                    </address>
+
+                    <p><i class="fa-solid fa-envelope"></i> lemonchatka@gmail.com</p>
+
+                    <p><i class="fa-solid fa-phone"></i>+91 8542919064</p>
+                    <div class="social-media">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100090700180268&mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/lemon-chatka/">
+                            <i class="fa-solid fa-user"></i></a>
+                    </div>
+
+
+                    <div class="sales">
+                        <p>
+                            For any Sales query, we can be approached at the below co-ordinates: <br>
+                            Email: lemonchatka@gmail.com <br>
+                            Mob: 85429 19064 <br>
+                            We are also on <a target="_blank" href="https://imart.page.link/vm2Ed">India Mart</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
