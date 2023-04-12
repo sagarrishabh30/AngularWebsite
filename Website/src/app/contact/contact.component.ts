@@ -14,6 +14,7 @@ export class ContactComponent {
   message : new FormControl(''),
 })
 contactFormSubmit(){
-  console.log(this.contactForm);
+  console.log(this.contactForm.value);
+  
 }
 }
