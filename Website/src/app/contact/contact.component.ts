@@ -15,5 +15,6 @@ export class ContactComponent {
 })
 contactFormSubmit(){
   console.log(this.contactForm.value);
+  
 }
 }
