@@ -8,17 +8,17 @@
 }
 
 #logo, #tagline{
-    padding-top: 5%;
+    padding-top: 4%;
     font-family: 'Caveat', cursive;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 55px;
     text-decoration: underline overline;
 }
 
 .introText{
     width: 50%;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 6px;
     font-size: 17px;
     font-weight: 500;
 }
