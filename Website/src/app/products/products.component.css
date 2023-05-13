@@ -1,0 +1,16 @@
+.content {
+    font-family: 'Hind Madurai', sans-serif;
+    height: 100%;
+    background-image: url('../../assets/images/AboutBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    padding-top: 100px;
+}
+
+#imli{
+    margin-top: 20px;
+    border-radius: 40px;
+}

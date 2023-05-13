@@ -14,3 +14,11 @@
     font-size: 70px;
     text-decoration: underline overline;
 }
+
+.introText{
+    width: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 500;
+}
