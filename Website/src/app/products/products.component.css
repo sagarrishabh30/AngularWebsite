@@ -5,12 +5,46 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    font-size: 50px;
-    color: white;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
-#imli{
-    margin-top: 20px;
+#cardImg {
     border-radius: 40px;
+    float: left;
+}
+
+.card {
+    background-color: #eceff1;
+    border-radius: 30px;
+    max-width: 70%;
+    margin: 70px auto;
+    color: BLACK;
+    padding: 10px;
+}
+
+.table {
+    max-width: 55%;
+    position: relative;
+    float: right;
+    top: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    display: contents;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
 }
