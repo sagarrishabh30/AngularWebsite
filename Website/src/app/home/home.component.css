@@ -7,12 +7,16 @@
     height: 100%;
 }
 
-#logo, #tagline{
-    padding-top: 4%;
+#tagline{
+    padding-top: 3%;
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 55px;
     text-decoration: underline overline;
+}
+
+#logo{
+    margin-top: 110px;
 }
 
 .introText{
