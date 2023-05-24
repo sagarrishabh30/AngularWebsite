@@ -4,7 +4,7 @@
     background-image: url('../../assets/images/HomeBg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 110%;
 }
 
 #tagline{
@@ -16,7 +16,7 @@
 }
 
 #logo{
-    margin-top: 110px;
+    margin-top: 90px;
 }
 
 .introText{
