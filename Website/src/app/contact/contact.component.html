@@ -1,35 +1,26 @@
 <div class="content">
-    <form [formGroup]="contactForm" (ngSubmit)="contactFormSubmit()">
+    <form action="mail_handler.php" method="post" name="form" [formGroup]="contactForm" (ngSubmit)="contactFormSubmit()">
         <div class="form">
             <h1>Get in touch</h1>
             <div class="flex-container">
                 <div class="flex-left">
-                    <!-- <label for="name">Name: </label>
-            <input id="name" type="text" formControlName="Name">
-            <label for="phone">Phone No.: </label>
-            <input id="phone" type="number" formControlName="phone">
-            <label for="email">Email ID: </label>
-            <input id="email" type="email" formControlName="email">
-            <label for="message">Message: </label>
-            <input id="message" type="text" formControlName="message">
-            <button class="btn btn-primary" (click)="contactFormSubmit()">Submit</button> -->
                     <div class="input-container ic2">
-                        <input class="input" id="Name" type="email" formControlName="Name" placeholder=" ">
+                        <input class="input" id="Name" name="name" type="email" formControlName="Name" placeholder=" ">
                         <div class="cut cut-short"></div>
                         <label for="Name" class="placeholder">Name</label>
                     </div>
                     <div class="input-container ic2">
-                        <input class="input" id="phone" type="text" formControlName="phone" placeholder=" ">
+                        <input class="input" id="phone" name="phone" type="text" formControlName="phone" placeholder=" ">
                         <div class="cut"></div>
                         <label for="phone" class="placeholder">Phone No.</label>
                     </div>
                     <div class="input-container ic2">
-                        <input class="input" id="email" type="email" formControlName="email" placeholder=" ">
+                        <input class="input" id="email" name="email" type="email" formControlName="email" placeholder=" ">
                         <div class="cut cut-short"></div>
                         <label for="email" class="placeholder">Email</label>
                     </div>
                     <div class="input-container ic2">
-                        <textarea class="input" id="message" type="text" formControlName="message"
+                        <textarea name="msg" class="input" id="message" type="text" formControlName="message"
                             placeholder=" "></textarea>
                         <div class="cut"></div>
                         <label for="message" class="placeholder">Message</label>
@@ -52,7 +43,8 @@
                     <p><i class="fa-solid fa-phone"></i>+91 8542919064</p>
                     <p><i class="fa-solid fa-phone"></i>+91 8588800520</p>
                     <div class="social-media">
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100090700180268&mibextid=ZbWKwL">
+                        <a target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100090700180268&mibextid=ZbWKwL">
                             <i class="fa-brands fa-facebook"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/company/lemon-chatka/">
                             <i class="fa-solid fa-user"></i></a>
