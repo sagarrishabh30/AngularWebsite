@@ -1,11 +1,10 @@
 .content {
     font-family: 'Hind Madurai', sans-serif;
-    height: 100%;
+    height: auto;
     background-image: url('../../assets/images/ContactBg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -21,7 +20,8 @@ h1 {
     box-sizing: border-box;
     height: 500px;
     width: 100%;
-    padding: 30px;
+    padding: 23px;
+    margin-bottom: 30px;
 }
 
 .flex-container {
@@ -158,4 +158,8 @@ h1 {
 .sales{
     padding-left: 12%;
     padding-top: 30px;
+}
+
+@media only screen and (max-width:992px)  {
+    
 }
