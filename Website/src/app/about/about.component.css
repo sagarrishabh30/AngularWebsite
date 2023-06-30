@@ -44,4 +44,11 @@ p {
     .about-content {
         width: 100%;
     }
+    p {
+        color: whitesmoke;
+        font-size: 14px;
+    }
+    .promoters{
+        font-size: 14px;
+    }
 }
